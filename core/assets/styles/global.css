@@ -1,0 +1,59 @@
+@import url("./fonts.css");
+
+html,
+body {
+    height     : 100%;
+    width      : 100%;
+    margin     : 0 !important;
+    font-family: OpenSans, sans-serif;
+    overflow   : hidden;
+}
+
+#__next,
+.mainPage {
+    height  : 100%;
+    width   : 100%;
+    overflow: hidden;
+}
+
+.headerPage {
+    height: 60px;
+}
+
+.footerPage {
+    padding         : .55rem 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-top      : 1px solid rgba(0, 0, 0, .125);
+    color           : #6c757d !important;
+    text-align      : center;
+    font-size       : 12px;
+    letter-spacing  : 0.35px;
+    font-family     : 'OpenSans-SemiBold';
+}
+
+.pageContent {
+    height: calc(100% - 99px);
+}
+
+.noDataContent {
+    position : absolute;
+    top      : 50%;
+    left     : 50%;
+    transform: translate(-50%, -50%)
+}
+
+.iconWrap {
+    display        : flex;
+    justify-content: center;
+    padding        : 5px;
+}
+
+.nodataImg {
+    height         : 30px;
+    width          : 30px;
+    background-size: 100% 100%;
+}
+
+.NetworkError {
+    background-image: url('../images/NetworkError.png');
+}
