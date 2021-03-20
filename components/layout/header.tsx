@@ -8,7 +8,7 @@ const AppHeader = (): JSX.Element => {
     const menus = [{ title: 'Users', path: '/users' }, { title: 'Posts', path: '/posts' }, { title: 'Albums', path: '/albums' }, { title: 'To Do', path: '/todo' },]
     return (<div className='headerPage'>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand>Blog Engine</Navbar.Brand>
+            <Navbar.Brand href='/'>Blog Engine</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
