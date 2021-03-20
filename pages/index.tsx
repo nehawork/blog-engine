@@ -10,7 +10,7 @@ export default function Users() {
           </a>
         </div>
         <div>
-          Made with purpose of learning : <br />
+          Made with purpose of learning following things : <br />
           <ul>
             <li>
               <a href="https://nextjs.org/" target="_blank">
